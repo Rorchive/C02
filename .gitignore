@@ -1,0 +1,51 @@
+# Code-Runner
+tempCodeRunnerFile.cpp
+
+# Arquivos de compilação
+*.exe
+*.out
+*.app
+*.o
+*.obj
+*.dll
+*.so
+*.dylib
+
+# Arquivos de debug
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Arquivos de IDE/Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Arquivos de build
+build/
+bin/
+Debug/
+Release/
+x64/
+x86/
+
+# Arquivos temporários
+*.tmp
+*.temp
+*.log
+
+# Arquivos de dependências
+*.d
+*.dll
+*.lib
+
+# Arquivos de cache
+.cache/
+*.cache
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
