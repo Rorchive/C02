@@ -138,7 +138,7 @@
 
 <!-- ----- EXERCÍCIO ----- -->
 
-## 🚀 [Titulo](Link)
+## 🚀 [WHILE - Validação de Nota](WHILE-Validacao_de_nota.cpp)
 
 <h3>Descrição</h3>
 <p>

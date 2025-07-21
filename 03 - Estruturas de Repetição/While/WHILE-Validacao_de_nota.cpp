@@ -13,17 +13,11 @@
 using namespace std;
 
 int main() {
-  float nota1, nota2;
+  float n1, n2;
 
-  do {
-    if (nota1 < 0 || nota1 > 10) cout << "nota invalida" << endl;
-    cin >> nota1;
-  } while (nota1 < 0 || nota1 > 10);
+  while (cin >> n1 && (n1 < 0 || n1 > 10)) cout << "nota invalida" << endl;
 
-  do {
-    if (nota2 < 0 || nota2 > 10) cout << "nota invalida" << endl;
-    cin >> nota2;
-  } while (nota2 < 0 || nota2 > 10);
+  while (cin >> n2 && (n2 < 0 || n2 > 10)) cout << "nota invalida" << endl;
 
-  cout << "media = " << fixed << setprecision(2) << ((nota1 + nota2) / 2);
+  cout << "media = " << fixed << setprecision(2) << ((n1 + n2) / 2);
 }
