@@ -18,7 +18,7 @@ int main() {
   string file_name;
   cin >> file_name;
 
-  // Lendo a senha do usário.
+  // Lendo a senha do usuário.
   string password;
   getline(cin >> ws, password);
 
