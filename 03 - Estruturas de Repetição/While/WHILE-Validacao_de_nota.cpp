@@ -19,5 +19,5 @@ int main() {
 
   while (cin >> n2 && (n2 < 0 || n2 > 10)) cout << "nota invalida" << endl;
 
-  cout << "media = " << fixed << setprecision(2) << ((n1 + n2) / 2);
+  cout << "media = " << fixed << setprecision(2) << ((n1 + n2) / 2) << endl;
 }
