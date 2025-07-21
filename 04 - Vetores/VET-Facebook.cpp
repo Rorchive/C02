@@ -30,7 +30,7 @@ int main() {
   }
 
   // Defining the most and least connected users
-  int min, max = facebook_network[0];
+  int min = facebook_network[0], max = facebook_network[0];
 
   // Getting the most and least connected users from facebook_network
   for (int x = 0; x < facebook_users; x++) {
