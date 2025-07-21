@@ -36,7 +36,7 @@ int main() {
   float average = (sum_class_score) / (N);
 
   // Counting the number of students above and below the class average.
-  int above_average, below_average = 0;
+  int above_average = 0, below_average = 0;
 
   for (int k = 0; k < N; k++) {
     if (scores[k] >= average) {
