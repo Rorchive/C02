@@ -24,7 +24,7 @@ int main() {
 
   // Lê dois pontos.
   for (int i = 0; i < 2; i++) {
-    float x, y;
+    int x, y;
     cin >> x >> y;
 
     ponto aux;
