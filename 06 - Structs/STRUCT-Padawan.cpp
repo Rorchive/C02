@@ -42,8 +42,8 @@ int main() {
     padawans[i] = createPadawan(nome, pontos);
   }
 
-  int max_pontos;
-  int padawan_id;
+  int max_pontos = (n_padawans > 0) ? padawans[0].pontos : 0;
+  int padawan_id = -1;
   float total_pontos = 0;
 
   for (int j = 0; j < n_padawans; j++) {
