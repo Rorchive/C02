@@ -28,7 +28,7 @@ int main() {
 
   // Creating variables for storing the number of videos above 10 M views and
   // below 10 M views.
-  int above_10, below_10 = 0;
+  int above_10 = 0, below_10 = 0;
 
   // Counting each video from the videos vector that has less or more than 10 M
   // views.
