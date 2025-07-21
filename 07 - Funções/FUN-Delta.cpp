@@ -18,7 +18,7 @@ int main() {
   float a, b, c;
   cin >> a >> b >> c;
 
-  cout << "delta = " << calc_delta(a, b, c) << fixed << setprecision(2) << endl;
+  cout << fixed << setprecision(2) << "delta = " << calc_delta(a, b, c) << endl;
 
   return 0;
 }
