@@ -15,7 +15,8 @@ using namespace std;
 // Struct para armazenar os dados de um aluno.
 struct student_data {
   // Nota exam 1 e 2.
-  int id, e1, e2;
+  int id;
+  float e1, e2;
 };
 
 int main() {
@@ -28,10 +29,8 @@ int main() {
 
   // Exibindo a matrícula, e a nota da primeira e segunda prova.
   cout << "Matricula do aluno: " << student.id << endl;
-  cout << "Nota da primeira prova: " << fixed << setprecision(2) << student.e1
-       << endl;
-  cout << "Nota da segunda prova: " << fixed << setprecision(2) << student.e2
-       << endl;
+  cout << "Nota da primeira prova: " << fixed << setprecision(2) << student.e1 << endl;
+  cout << "Nota da segunda prova: " << fixed << setprecision(2) << student.e2 << endl;
 
   return 0;
 }

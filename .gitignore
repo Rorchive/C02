@@ -49,3 +49,6 @@ x86/
 # Arquivos de sistema
 .DS_Store
 Thumbs.db
+
+# clang
+.clang-format
