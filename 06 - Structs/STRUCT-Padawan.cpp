@@ -15,25 +15,31 @@ using namespace std;
 
 struct padawan {
   string nome;
-  int pontos;
+  float pontos;
 };
 
-padawan createPadawan(string nome, int pontos) {
-  padawan created_padawan;
-  created_padawan.nome = nome;
-  created_padawan.pontos = pontos;
-
-  return created_padawan;
+padawan createPadawan(const string& nome, float pontos) {
+  return {nome, pontos};
 }
 
 int main() {
   int n_padawans;
   cin >> n_padawans;
 
+  if (n_padawans <= 0) {
+    cout << "Padawan com mais pontos: nenhum" << endl;
+    cout << "Pontos: 0" << endl;
+    cout << "Media da turma: 0 pontos" << endl;
+
+    return 0;
+  }
+
+  if (n_padawans > 1000) n_padawans = 1000;
+
   padawan padawans[1000];
 
   string nome;
-  int pontos;
+  float pontos;
 
   for (int i = 0; i < n_padawans; i++) {
     getline(cin >> ws, nome);
@@ -42,8 +48,8 @@ int main() {
     padawans[i] = createPadawan(nome, pontos);
   }
 
-  int max_pontos = (n_padawans > 0) ? padawans[0].pontos : 0;
-  int padawan_id = -1;
+  int max_pontos = padawans[0].pontos;
+  int padawan_id = 0;
   float total_pontos = 0;
 
   for (int j = 0; j < n_padawans; j++) {
@@ -56,8 +62,8 @@ int main() {
 
   cout << "Padawan com mais pontos: " << padawans[padawan_id].nome << endl;
   cout << "Pontos: " << padawans[padawan_id].pontos << endl;
-  cout << "Media da turma: " << fixed << setprecision(2)
-       << (total_pontos / n_padawans) << " pontos" << endl;
+  cout << "Media da turma: " << fixed << setprecision(2) << (total_pontos / n_padawans) << " pontos"
+       << endl;
 
   return 0;
 }
