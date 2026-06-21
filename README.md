@@ -20,16 +20,16 @@ This repository contains a collection of optimized and well-documented C++ solut
 
 ## Repository Organization
 
-* [1 - Entrada e Saída](1%20-%20Entrada%20e%20Saída/): Basic I/O exercises.
-* [2 - Estruturas de Seleção](2%20-%20Estruturas%20de%20Seleção/): Conditionals and decision structures.
-* [3 - Estruturas de Repetição](3%20-%20Estruturas%20de%20Repetição/): Loops and iterations.
-* [4 - Vetores](4%20-%20Vetores/): Simple arrays and operations.
-* [5 - Strings](5%20-%20Strings/): Text manipulation.
-* [6 - Structs](6%20-%20Structs/): Custom data structures.
-* [7 - Funções](7%20-%20Funções/): Modularization and code reuse.
-* [8 - Arquivos](8%20-%20Arquivos/): Data persistence and file manipulation.
-* [100 - NP1](100%20-%20NP1/): First exam preparation.
-* [100 - NP2](100%20-%20NP2/): Second exam preparation.
+* [1 - Entrada e Saída](01%20-%20Entrada%20e%20Saída/): Basic I/O exercises.
+* [2 - Estruturas de Seleção](02%20-%20Estruturas%20de%20Seleção/): Conditionals and decision structures.
+* [3 - Estruturas de Repetição](03%20-%20Estruturas%20de%20Repetição/): Loops and iterations.
+* [4 - Vetores](04%20-%20Vetores/): Simple arrays and operations.
+* [5 - Strings](05%20-%20Strings/): Text manipulation.
+* [6 - Structs](06%20-%20Structs/): Custom data structures.
+* [7 - Funções](07%20-%20Funções/): Modularization and code reuse.
+* [8 - Arquivos](08%20-%20Arquivos/): Data persistence and file manipulation.
+* [9 - NP1](09%20-%20NP2/): First exam preparation.
+* [10 - NP2](10%20-%20NP3/): Second exam preparation.
 
 ## Usage & Operation
 
