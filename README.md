@@ -1,101 +1,63 @@
-<div align="center">
-  <img src="https://i.imgur.com/hPsvCYI.png" alt="Logo Inatel" height="120px"/>
-</div>
+<h1 align="center">C02 - Algoritmos e Estruturas de Dados I</h1>
 
-<h1 align="center">🎓 C02 - Algoritmos e Estruturas de Dados I</h1>
+<p align="center">
+    <a href="#"><img alt="Static Badge" src="https://img.shields.io/badge/status-archived-orange"></a>
+    <a href="https://github.com/Rorchive/C02/issues"><img alt="GitHub Issues or Pull Requests" src="https://img.shields.io/github/issues/Rorchive/C02"></a>
+    <a href="https://github.com/Rorchive/C02/pulls"><img alt="GitHub Issues or Pull Requests" src="https://img.shields.io/github/issues-pr/Rorchive/C02"></a>
+    <a href="https://github.com/Rorchive/C02/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/Rorchive/C02"></a>
+</p>
 
-Este repositório é uma coleção de soluções otimizadas e bem documentadas para os exercícios da disciplina de **Algoritmos e Estruturas de Dados I (C02)** do Inatel. Cada solução foi desenvolvida com foco em eficiência computacional, boas práticas de programação e clareza de código, servindo como referência para estudantes que buscam aprimorar suas habilidades em C++.
+<p align="center">
+    <a href="#overview">Overview</a> •
+    <a href="#repository-organization">Repository Organization</a> •
+    <a href="#usage--operation">Usage & Operation</a> •
+    <a href="#acknowledgments">Acknowledgments</a> •
+    <a href="#license">License</a>
+</p>
 
-## 🎯 Objetivos da Disciplina
+## Overview
+This repository contains a collection of optimized and well-documented C++ solutions for the Algorithms and Data Structures I (C02) course at Inatel. Each solution was developed focusing on algorithm fundamentals and programming best practices.
 
-- Dominar algoritmos e estruturas de dados fundamentais
-- Desenvolver habilidades de resolução eficiente de problemas
-- Aprender as melhores práticas em programação C++
+## Repository Organization
 
-## 📁 Estrutura do Repositório
+* [1 - Entrada e Saída](1%20-%20Entrada%20e%20Saída/): Basic I/O exercises.
+* [2 - Estruturas de Seleção](2%20-%20Estruturas%20de%20Seleção/): Conditionals and decision structures.
+* [3 - Estruturas de Repetição](3%20-%20Estruturas%20de%20Repetição/): Loops and iterations.
+* [4 - Vetores](4%20-%20Vetores/): Simple arrays and operations.
+* [5 - Strings](5%20-%20Strings/): Text manipulation.
+* [6 - Structs](6%20-%20Structs/): Custom data structures.
+* [7 - Funções](7%20-%20Funções/): Modularization and code reuse.
+* [8 - Arquivos](8%20-%20Arquivos/): Data persistence and file manipulation.
+* [100 - NP1](100%20-%20NP1/): First exam preparation.
+* [100 - NP2](100%20-%20NP2/): Second exam preparation.
 
-- [Entrada e Saída](1%20-%20Entrada%20e%20Saída/) - Exercícios básicos de I/O
-- [Estruturas de Seleção](2%20-%20Estruturas%20de%20Seleção/) - Condicionais e decisão
-- [Estruturas de Repetição](3%20-%20Estruturas%20de%20Repetição/) - Loops e iterações
-- [Vetores](4%20-%20Vetores/) - Arrays simples e operações
-- [Strings](5%20-%20Strings/) - Manipulação de texto
-- [Structs](6%20-%20Structs/) - Estruturas de dados personalizadas
-- [Funções](7%20-%20Funções/) - Modularização e reuso de código
-- [Arquivos](8%20-%20Arquivos/) - Persistência e manipulação de dados
-- [NP1](100%20-%20NP1/) - Preparação para primeira prova
-- [NP2](100%20-%20NP2/) - Preparação para segunda prova
+## Usage & Operation
 
+The C++ solutions in this repository can be compiled and executed using the GNU Compiler Collection (`g++`). Clone the repository, navigate to the specific exercise folder, and compile the source file as shown below:
 
-## 🚀 Como Usar
-
-1. Clone o repositório:
 ```bash
-git clone https://github.com/RodrigoCAndrade/C02.git
-```
+git clone https://github.com/Rorchive/C02.git
 
-2. Navegue até o exercício específico:
-```bash
 cd C02/1-Entrada_e_saida
+
+g++ ES-Areas.cpp -o ES-Areas && ./ES-Areas
 ```
 
-3. Compile e execute os arquivos C++:
-```bash
-g++ ES-Areas.cpp -o ES-Areas
-./ES-Areas
-```
+## Acknowledgments
+* Special thanks to professor Carlos Alberto Ynoguti for the guidance and course materials.
 
-## 🤝 Contribuindo
+## License
 
-Este repositório é uma iniciativa colaborativa para ajudar estudantes do Inatel. Você pode contribuir de várias formas:
+This software project is licensed under the **[MIT License](LICENSE)**. Please note that included third-party dependencies, libraries, or APIs may be subject to their own respective licenses. All materials are provided "as is" without warranty of any kind, and the authors assume no liability for any direct or indirect damages, claims, or issues arising from their compilation, use, or implementation.
 
-1. **Melhorias de Código**
-   - Sugerir implementações mais eficientes para os exercícios existentes
-   - Otimizar algoritmos para melhor performance
-   - Refatorar código para maior clareza e manutenibilidade
-
-2. **Novo Conteúdo**
-   - Adicionar novos exercícios do Moodle
-   - Incluir questões de provas anteriores
-   - Criar materiais de preparação para provas
-
-3. **Correções e Bugs**
-   - Reportar bugs encontrados
-   - Corrigir erros de lógica
-   - Melhorar a documentação
-
-### 🛠️ Como Contribuir
-
-1. 🍴 Faça um fork do repositório
-2. 🌿 Crie uma branch para sua contribuição:
-   ```bash
-   git checkout -b feature/nova-contribuicao
-   ```
-3. ✏️ Faça suas alterações
-4. 💾 Commit suas mudanças:
-   ```bash
-   git commit -m '✨ Adiciona nova contribuição'
-   ```
-5. 📤 Push para a branch:
-   ```bash
-   git push origin feature/nova-contribuicao
-   ```
-6. 🔄 Abra um Pull Request
-
----
+<br/>
 
 <div align="center">
-  <sub>📜 Este projeto está licenciado sob a <a href="LICENSE">Licença MIT</a></sub>
-  </br>
-  <sub>Construído com ❤️ por Rodrigo de Carvalho Andrade</sub>
+  <img src="https://raw.githubusercontent.com/Rorchive/.github/main/assets/logo_text.png" alt="Rorchive Logo" style="width: 256px;"/>
 </div>
 
-<!--
-## Créditos e Licença
+<div align="center">
+<sub>📜 This project is part of <strong><a href="https://github.com/Rorchive">Rorchive</a></strong>, my personal archive of activities and courses developed during my studies at <strong>Inatel</strong>.</sub>
 
-- **Autor:** Rodrigo de Carvalho Andrade
-- **Última Atualização:** Junho 2025
-- **Licença:** MIT License
-- **Disciplina:** C02 - Algoritmos e Estruturas de Dados I
-- **Faculdade:** Inatel (Instituto Nacional de Telecomunicações)
-- **Professor:** Carlos Alberto Ynoguti
--->
+  <sub>Built with ❤️ by <a href="https://rodrigoandrade.com">Rodrigo de Carvalho Andrade</a></sub>
+</div>
